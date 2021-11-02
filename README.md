@@ -1,7 +1,9 @@
 # Conv-SNN
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/convolutional-spiking-neural-networks-for/event-data-classification-on-cifar10-dvs)](https://paperswithcode.com/sota/event-data-classification-on-cifar10-dvs?p=convolutional-spiking-neural-networks-for)
+
+Reimplemented in python by [@fpert041](https://github.com/fpert041) from previous work from [@AA-Samad](https://github.com/aa-samad/)
+
 ### Convolutional spiking neural networks (SNN) for spatio-temporal feature extraction
-This paper highlights potentials of Convolutional spiking neural networks and introduces a new architecture to tackle training deep convolutional SNN problems.
+This repository is based on a [paper](https://paperswithcode.com/sota/event-data-classification-on-cifar10-dvs?p=convolutional-spiking-neural-networks-for) highlighting the potential of [Convolutional spiking neural networks](https://arxiv.org/abs/1903.12272) and introduces a new architecture to tackle training deep convolutional SNN problems.
 
 ## Prerequisites
 The Following Setup is tested and it is working:
@@ -33,7 +35,7 @@ The Following Setup is tested and it is working:
 The solution is to try other torch versions and parameters or contact me / make an issue if you truly need the highest accuracy.
 
 ## Citing
-Please adequately refer to the papers any time this Work is being used. If you do publish a paper where this Work helped your research, Please cite the following papers in your publications.
+Please adequately refer to the paper this repository implements. If you do publish a paper where this Work helped your research, Please cite the following papers in your publications.
 
 	@misc{samadzadeh2020convolutional,
             title={Convolutional Spiking Neural Networks for Spatio-Temporal Feature Extraction},
